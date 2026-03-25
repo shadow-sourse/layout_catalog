@@ -9,8 +9,11 @@
   border: $background 1px solid;
   border-radius: 5px;
 
+  transition: 300ms;
+
   &:hover{
     transform: scale(1.2);
+
   }
   &__image-container {
     display: flex;
@@ -35,6 +38,12 @@
     font-weight: 500;
     font-size: 12px;
     margin: 0;
+    transition: 300ms;
+
+  }
+
+  &:hover &__title {
+    color: $card-title-hover;
   }
 
   &__code {

@@ -53,7 +53,7 @@ body {
       color: $blue-accent;
     }
 
-    &--active {
+    &.is-active {
       color: $blue-accent;
 
       &::after {
