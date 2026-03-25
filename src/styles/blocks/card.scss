@@ -94,7 +94,7 @@
     border-radius: 5px;
     background-color: $blue-accent;
     border: $blue-accent 1px solid;
-
+    transition: background-color 300ms ease, border-color 300ms ease;
 
     &:hover {
       box-sizing: border-box;
@@ -118,7 +118,7 @@
     line-height: 16px;
 
     color: $white;
-
+    transition: color 300ms;
     &:hover {
       color: $blue-accent;
     }
