@@ -2,10 +2,10 @@
   display: flex;
 
   &__star {
-    margin-right: 4px;
+    margin-right: $start-margin-right;
     background-image: url('../images/star.svg');
-    width: 16px;
-    height: 16px;
+    width: $stars-size;
+    height: $stars-size;
     background-repeat: no-repeat;
     background-size: contain;
 
